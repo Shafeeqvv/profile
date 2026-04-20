@@ -54,7 +54,7 @@ $('.gallery-bottom').slick({
 });
 /*------------------------------------- Scanner Img Download -------------------------------------*/
 function downloadImage() {
-  const imagePath = 'assets/images/main-img/scanner-img.png';
+  const imagePath = '../../assetsprofile/images/main-img/scanner-img.png';
   const fileName = 'scanner-img.png';
   const link = document.createElement('a');
   link.href = imagePath;
