@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Suhas Sulaiman
+ORG:MAF Media LLC
+TITLE:Sales Manager
+TEL;TYPE=CELL;TYPE=VOICE:+971524959455
+TEL;TYPE=WORK;TYPE=VOICE:+971524959455
+EMAIL;TYPE=WORK:suhas.sales@mafmedia.ae
+ADR;TYPE=WORK:;;Al Qusais Industrial Area 5;Dubai;;;United Arab Emirates
+URL:https://mafmedia.ae
+END:VCARD
