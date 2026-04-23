@@ -191,8 +191,8 @@ ul {
 	font-family: Poppins;
 	font-size: 14px;
 	font-style: normal;
-	font-weight: 500;
-	line-height: 20px;
+	font-weight: 300;
+	line-height: 10px;
 }
 
 .dropdown-item {
@@ -231,6 +231,7 @@ ul {
 .bg-img1 {
     position: relative;
     z-index: 2;
+    width: 100%;
 }
 
 
@@ -270,7 +271,7 @@ ul {
 .profile-name h1 {
 	color: #FF1616;
 	font-family: Poppins;
-	font-size: 24px;
+	font-size: 22px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 36px;
@@ -1403,71 +1404,77 @@ button.btn-close {
 }
 
 .circles li {
-	position: absolute;
-	display: block;
-	list-style: none;
-	width: 20px;
-	height: 20px;
-	background: rgb(255 22 22 / 10%);
-	animation: animate 25s linear infinite;
-	bottom: -150px;
+    position: absolute;
+    display: block;
+    list-style: none;
+    /* Path to your logo or image */
+    background-image: url('../images/favicon/fav.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    /* Remove the old background color */
+    background-color: transparent; 
+    
+    animation: animate 25s linear infinite;
+    bottom: -150px;
 }
 
 .circles li:nth-child(1) {
 	left: 25%;
-	width: 80px;
-	height: 80px;
+	width: 40px;
+	height: 40px;
 	animation-delay: 0s;
 }
 
 .circles li:nth-child(2) {
 	left: 10%;
-	width: 20px;
-	height: 20px;
+	width: 10px;
+	height: 10px;
 	animation-delay: 2s;
 	animation-duration: 12s;
 }
 
 .circles li:nth-child(3) {
 	left: 70%;
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 	animation-delay: 4s;
 }
 
 .circles li:nth-child(4) {
 	left: 40%;
-	width: 60px;
-	height: 60px;
+	width: 30px;
+	height: 30px;
 	animation-delay: 0s;
 	animation-duration: 18s;
 }
 
 .circles li:nth-child(5) {
 	left: 65%;
-	width: 20px;
-	height: 20px;
+	width: 10px;
+	height: 10px;
 	animation-delay: 0s;
 }
 
 .circles li:nth-child(6) {
 	left: 75%;
-	width: 100px;
-	height: 100px;
+	width: 35px;
+	height: 35px;
 	animation-delay: 3s;
 }
 
 .circles li:nth-child(7) {
 	left: 35%;
-	width: 120px;
-	height: 120px;
+	width: 30px;
+	height: 30px;
 	animation-delay: 7s;
 }
 
 .circles li:nth-child(8) {
 	left: 50%;
-	width: 25px;
-	height: 25px;
+	width: 15px;
+	height: 15px;
 	animation-delay: 15s;
 	animation-duration: 45s;
 }
@@ -1482,8 +1489,8 @@ button.btn-close {
 
 .circles li:nth-child(10) {
 	left: 85%;
-	width: 120px;
-	height: 120px;
+	width: 25px;
+	height: 25px;
 	animation-delay: 0s;
 	animation-duration: 11s;
 }
